@@ -14,8 +14,8 @@ function jsonData(){
 
         ul.innerHTML  += `
 
-        <div class="col-md-6"> 
-        <div class="card mb-4">
+        <div class="col-md-4"> 
+        <div class="card mb-2">
          <div class="card-body card">
             
          <img src="${value.image}" class="img-fluid profile-img">
