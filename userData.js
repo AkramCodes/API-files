@@ -25,7 +25,10 @@ function jsonData(){
 
       <div class=" inputDiv col-md-6"> <input type="email" class=" form-control mt-1" id="inpurte-1" value="${value.email}" readonly>  <input type="tel" class=" divinput form-control mt-1"  id="inpurte-2" value="${value.phone}" readonly> </div>
 
-    <div class=" inputDiv col-md-6"> <input type="text" class=" form-control mt-1" id="inpurte-1" value="${value.username}" readonly>  <input type="password" class=" divinput form-control mt-1"  id="inpurte-2" value="${value.password}" readonly> </div>
+    <div class=" inputDiv col-md-6">
+      <input type="text" class=" form-control mt-1" id="inpurte-1" value="${value.username}" readonly>  
+    <input type="password" class=" divinput form-control mt-1"  id="inpurte-2" value="${value.password}" readonly>
+     </div>
 
     <div class=" inputDiv col-md-6"> <input type="text" class=" form-control mt-1" id="inpurte-1" value="${value.birthDate}" readonly>  <input type="text" class=" divinput form-control mt-1"  id="inpurte-2" value="${value.bloodGroup}" readonly> </div>
       
@@ -43,4 +46,4 @@ function jsonData(){
 
 }
 
-setTimeout(function(){jsonData()},1000)
+setTimeout(function(){jsonData()},10000)
